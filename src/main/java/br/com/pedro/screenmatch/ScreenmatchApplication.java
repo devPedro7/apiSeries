@@ -30,7 +30,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 		DadosEpisodios dadosEpisodios = conversor.obterDados(jsonEpisodio, DadosEpisodios.class);
 
-		System.out.println("Dados do episódio: " + dados);
+		System.out.println("Dados da série: " + dados);
 		System.out.println("Dados do episódio: " + dadosEpisodios);
 
 
